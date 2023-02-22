@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ecb32d8a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+   <div class="container">
+    <nav>
+        <img src="r.jpg" alt="logo" id="sidemenu">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+    <p>Web Development</p>
+    <h1>Hi, I'm <span>Tapabrata</span><br>Chatterjee From India</h1>  
+    </div>
+   </div>
+   </div> 
+   <!-- about  -->
+   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+        <img src="timage.png">
+        </div>
+        <div class="about-col-1">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo officia odio blanditiis cum nostrum vitae, neque, perspiciatis sapiente praesentium magni dolorem tempore voluptatibus temporibus ad suscipit ab accusantium labore non sed! Nesciunt, non.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experince')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Programming</span><br>C,C++,Python</li>
+                    <li><span>Frameworks</span><br>Open Cv,flask</li> 
+                    <li><span>Front End </span><br>HTML,CSS,JAVASCRIPT</li>
+                    <li><span>Version Control</span><br>GitHub</li>      
+                    <li><span>Softwares</span><br>Visual Studio Code,Codeblock,Jupyter Notebook</li> 
+                 <li><span>UI/UX </span><br>Designing web app interference</li>  
+                 <li><span>web development </span><br>web  development</li>   
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>### </span><br>----</li> 
+                    <li><span>**** </span><br>----</li> 
+                    <li><span>&&&& </span><br>----</li> 
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Bachelors of engineering</span><br>Japyee Institute Of Information Technology,noida,Uttar Pradesh,India<br> Electronics and communications engineering(2022-2026)</li> 
+                    <li><span>@@@@ </span><br>-------------</li> 
+                </ul>
+            </div>
+        </div>
+
+      </div>  
+    </div>
+   </div>
+   <!-- services -->
+   <div id="services">
+    <div class="container">
+     <h1 class="sub-title">My Services</h1> 
+     <div class="services-list">
+       <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>web design</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita nemo earum perferendis rem repellendus voluptas iste! Voluptatum, aliquam possimus! Harum quos similique dignissimos perspiciatis? Ullam, facilis commodi accusantium tenetur iste sed repudiandae voluptate?
+        </p>
+        <a href="#">Learn more</a>
+       </div> 
+       <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX design</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita nemo earum perferendis rem repellendus voluptas iste! Voluptatum, aliquam possimus! Harum quos similique dignissimos perspiciatis? Ullam, facilis commodi accusantium tenetur iste sed repudiandae voluptate?
+        </p>
+        <a href="#">Learn more</a>
+       </div>
+       <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App design</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita nemo earum perferendis rem repellendus voluptas iste! Voluptatum, aliquam possimus! Harum quos similique dignissimos perspiciatis? Ullam, facilis commodi accusantium tenetur iste sed repudiandae voluptate?
+        </p>
+        <a href="#">Learn more</a>
+       </div>  
+     </div>  
+    </div>
+   </div>
+   <!-- portfolio  -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ea praesentium nulla nesciunt qui ad.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div> 
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ea praesentium nulla nesciunt qui ad.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div> 
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>online shopping App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ea praesentium nulla nesciunt qui ad.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>  
+        </div> 
+<a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   <!-- contact -->
+   <div id="contact">
+    <div class="container">
+     <div class="row">
+     <div class="contact-left">
+       <h1 class="sub-title"> Contact Me</h1>
+       <p><i class="fa-solid fa-paper-plane"></i> tapabratadchatterjee@gmail.com</p>
+       <p><i class="fa-sharp fa-solid fa-phone"></i> 7363082609</p>
+       <div class="Social-icons">
+        <a href="https://www.facebook.com/Tapa.chatt654321?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/tapabrata-chatterjee-4ab772264"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Tapabratadchatterjee"><i class="fa-brands fa-github"></i>
+        </a>
+       </div>
+       <a href="images/my-cv.pdf" Download class="btn btn2">Download CV</a>
+    </div>
+     <div class="contact-right">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg">
+        </span>
+     </div>   
+     </div>
+     <div class="copyright">
+        <p> copyright © Tapabrata made with  <i class="fa-sharp fa-solid fa-heart"></i> </p>
+     </div>   
+    </div>
+   </div>
+   <script>
+    
+
+    var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+       
+
+    
+   </script>
+   <script>
+    var sidemenu=docunent.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function openmenu(){
+        sidemenu.style.right="-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzLU-E2S_ui-bi4Ut4Y3wCRzgaDTELzPV_YyETVvlvv54Kbj4jJlHjLC662CpDY9AtSbg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{ msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+
+
+
